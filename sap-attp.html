@@ -1,0 +1,506 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SAP ATTP & Pharmaceutical Serialization Consulting | Track & Trace | TRIADVI</title>
+<meta name="description" content="SAP ATTP consulting, pharmaceutical serialization, GS1/GTIN/EPCIS architecture, and track-and-trace solutions for anti-counterfeit protection." />
+<link rel="canonical" href="https://www.triadvi.com/sap-attp.html" />
+<meta name="robots" content="index, follow" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="TRIADVI LLC" />
+<meta property="og:title" content="SAP ATTP & Pharmaceutical Serialization Consulting | Track & Trace | TRIADVI" />
+<meta property="og:description" content="SAP ATTP consulting, pharmaceutical serialization, GS1/GTIN/EPCIS architecture, and track-and-trace solutions for anti-counterfeit protection." />
+<meta property="og:url" content="https://www.triadvi.com/sap-attp.html" />
+<meta property="og:image" content="https://www.triadvi.com/assets/img/og-cover.svg" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="SAP ATTP & Pharmaceutical Serialization Consulting | Track & Trace | TRIADVI" />
+<meta name="twitter:description" content="SAP ATTP consulting, pharmaceutical serialization, GS1/GTIN/EPCIS architecture, and track-and-trace solutions for anti-counterfeit protection." />
+<link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/css/styles.css" />
+
+</head>
+<body class="bg-ink-950">
+
+  <header id="site-header" class="fixed top-0 inset-x-0 z-50 transition-all duration-300">
+    <div class="container-px">
+      <div id="nav-inner" class="mt-3 flex items-center justify-between rounded-2xl border border-white/0 px-4 py-3 transition-all duration-300">
+        <a href="/index.html" class="flex items-center gap-2.5 shrink-0">
+          <svg width="30" height="30" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect width="32" height="32" rx="8" fill="url(#navmark)"/>
+    <path d="M8 20L16 8L24 20" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M11.5 20L16 13L20.5 20" stroke="white" stroke-opacity="0.55" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <defs><linearGradient id="navmark" x1="0" y1="0" x2="32" y2="32" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#42A3FF"/><stop offset="1" stop-color="#0A66D1"/>
+    </linearGradient></defs>
+  </svg>
+          <span class="font-display font-bold text-white text-lg tracking-tight">TRIADVI</span>
+        </a>
+        <nav class="hidden xl:flex items-center gap-7">
+          <a href="/index.html" class="nav-link ">Home</a><a href="/services.html" class="nav-link ">Services</a><a href="/microsoft-365.html" class="nav-link ">Microsoft 365</a><a href="/power-platform.html" class="nav-link ">Power Platform</a><a href="/azure-ai.html" class="nav-link ">Azure & AI</a><a href="/devops.html" class="nav-link ">DevOps</a><a href="/sap-attp.html" class="nav-link text-white">SAP ATTP</a><a href="/industries.html" class="nav-link ">Industries</a><a href="/projects.html" class="nav-link ">Projects</a><a href="/blog.html" class="nav-link ">Blog</a><a href="/about.html" class="nav-link ">About</a><a href="/contact.html" class="nav-link ">Contact</a>
+        </nav>
+        <div class="hidden xl:flex items-center gap-3">
+          <a href="/contact.html" class="btn-primary !py-2.5 !px-5 text-sm">Start a Conversation</a>
+        </div>
+        <button id="mobile-menu-btn" aria-label="Open menu" class="xl:hidden text-white p-2">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M4 7H20M4 12H20M4 17H20" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+        </button>
+      </div>
+    </div>
+    <div id="mobile-menu" class="hidden xl:hidden container-px">
+      <div class="mt-2 glass rounded-2xl p-4 flex flex-col gap-1">
+        <a href="/index.html" class="nav-link py-2.5 px-2 rounded-lg hover:bg-white/5">Home</a><a href="/services.html" class="nav-link py-2.5 px-2 rounded-lg hover:bg-white/5">Services</a><a href="/microsoft-365.html" class="nav-link py-2.5 px-2 rounded-lg hover:bg-white/5">Microsoft 365</a><a href="/power-platform.html" class="nav-link py-2.5 px-2 rounded-lg hover:bg-white/5">Power Platform</a><a href="/azure-ai.html" class="nav-link py-2.5 px-2 rounded-lg hover:bg-white/5">Azure & AI</a><a href="/devops.html" class="nav-link py-2.5 px-2 rounded-lg hover:bg-white/5">DevOps</a><a href="/sap-attp.html" class="nav-link py-2.5 px-2 rounded-lg hover:bg-white/5">SAP ATTP</a><a href="/industries.html" class="nav-link py-2.5 px-2 rounded-lg hover:bg-white/5">Industries</a><a href="/projects.html" class="nav-link py-2.5 px-2 rounded-lg hover:bg-white/5">Projects</a><a href="/blog.html" class="nav-link py-2.5 px-2 rounded-lg hover:bg-white/5">Blog</a><a href="/about.html" class="nav-link py-2.5 px-2 rounded-lg hover:bg-white/5">About</a><a href="/contact.html" class="nav-link py-2.5 px-2 rounded-lg hover:bg-white/5">Contact</a>
+        <a href="/contact.html" class="btn-primary mt-2 w-full">Start a Conversation</a>
+      </div>
+    </div>
+  </header>
+<main>
+
+  
+  <section class="relative pt-40 pb-20 overflow-hidden bg-ink-950">
+    <div class="absolute inset-0 bg-hero-glow"></div>
+    <div class="absolute inset-0 bg-grid opacity-40 mask-fade-r"></div>
+    <div class="relative container-px max-w-5xl">
+      <div class="reveal text-xs text-slate-500 mb-6"><a href="/index.html" class="hover:text-slate-300">Home</a> / SAP ATTP & Serialization</div>
+      <p class="reveal eyebrow mb-5">SAP ATTP & Pharmaceutical Serialization</p>
+      <h1 class="reveal h-display max-w-3xl">Track every unit. Trust every package.</h1>
+      <p class="reveal body-lg mt-6 max-w-2xl">Enterprise pharmaceutical serialization, aggregation, and track-and-trace architecture built on SAP ATTP and GS1 standards.</p>
+    </div>
+  </section>
+
+  <section id="serialization" class="section bg-ink-950 pt-0">
+    
+  <div class="reveal max-w-2xl mx-auto text-center mb-14">
+    <p class="eyebrow mb-4">Supply Chain Visualization</p>
+    <h2 class="h-section">From raw material to patient — every step traceable.</h2>
+    <p class="body-lg mt-4">Select any node to see what happens at that stage of the serialized pharmaceutical supply chain.</p>
+  </div>
+    
+  <div class="reveal overflow-x-auto no-scrollbar" id="supply-chain">
+    <div class="flex items-center min-w-max px-2 py-6 gap-0">
+      
+      <div class="flex items-center shrink-0">
+        <button data-sc-node="0" class="sc-node card card-hover px-4 py-3.5 text-xs sm:text-sm font-semibold text-white whitespace-nowrap flex flex-col items-center gap-1">
+          <span class="w-6 h-6 rounded-full bg-azure-500/20 text-azure-300 text-[10px] font-bold flex items-center justify-center">1</span>
+          Raw Materials
+        </button>
+        <svg class="mx-1 sm:mx-2 text-azure-400/60 shrink-0" width="24" height="16" viewBox="0 0 24 16" fill="none"><path d="M0 8H22M22 8L15 1M22 8L15 15" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </div>
+      <div class="flex items-center shrink-0">
+        <button data-sc-node="1" class="sc-node card card-hover px-4 py-3.5 text-xs sm:text-sm font-semibold text-white whitespace-nowrap flex flex-col items-center gap-1">
+          <span class="w-6 h-6 rounded-full bg-azure-500/20 text-azure-300 text-[10px] font-bold flex items-center justify-center">2</span>
+          Manufacturing
+        </button>
+        <svg class="mx-1 sm:mx-2 text-azure-400/60 shrink-0" width="24" height="16" viewBox="0 0 24 16" fill="none"><path d="M0 8H22M22 8L15 1M22 8L15 15" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </div>
+      <div class="flex items-center shrink-0">
+        <button data-sc-node="2" class="sc-node card card-hover px-4 py-3.5 text-xs sm:text-sm font-semibold text-white whitespace-nowrap flex flex-col items-center gap-1">
+          <span class="w-6 h-6 rounded-full bg-azure-500/20 text-azure-300 text-[10px] font-bold flex items-center justify-center">3</span>
+          Packaging
+        </button>
+        <svg class="mx-1 sm:mx-2 text-azure-400/60 shrink-0" width="24" height="16" viewBox="0 0 24 16" fill="none"><path d="M0 8H22M22 8L15 1M22 8L15 15" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </div>
+      <div class="flex items-center shrink-0">
+        <button data-sc-node="3" class="sc-node card card-hover px-4 py-3.5 text-xs sm:text-sm font-semibold text-white whitespace-nowrap flex flex-col items-center gap-1">
+          <span class="w-6 h-6 rounded-full bg-azure-500/20 text-azure-300 text-[10px] font-bold flex items-center justify-center">4</span>
+          Serialization
+        </button>
+        <svg class="mx-1 sm:mx-2 text-azure-400/60 shrink-0" width="24" height="16" viewBox="0 0 24 16" fill="none"><path d="M0 8H22M22 8L15 1M22 8L15 15" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </div>
+      <div class="flex items-center shrink-0">
+        <button data-sc-node="4" class="sc-node card card-hover px-4 py-3.5 text-xs sm:text-sm font-semibold text-white whitespace-nowrap flex flex-col items-center gap-1">
+          <span class="w-6 h-6 rounded-full bg-azure-500/20 text-azure-300 text-[10px] font-bold flex items-center justify-center">5</span>
+          Aggregation
+        </button>
+        <svg class="mx-1 sm:mx-2 text-azure-400/60 shrink-0" width="24" height="16" viewBox="0 0 24 16" fill="none"><path d="M0 8H22M22 8L15 1M22 8L15 15" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </div>
+      <div class="flex items-center shrink-0">
+        <button data-sc-node="5" class="sc-node card card-hover px-4 py-3.5 text-xs sm:text-sm font-semibold text-white whitespace-nowrap flex flex-col items-center gap-1">
+          <span class="w-6 h-6 rounded-full bg-azure-500/20 text-azure-300 text-[10px] font-bold flex items-center justify-center">6</span>
+          Warehouse
+        </button>
+        <svg class="mx-1 sm:mx-2 text-azure-400/60 shrink-0" width="24" height="16" viewBox="0 0 24 16" fill="none"><path d="M0 8H22M22 8L15 1M22 8L15 15" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </div>
+      <div class="flex items-center shrink-0">
+        <button data-sc-node="6" class="sc-node card card-hover px-4 py-3.5 text-xs sm:text-sm font-semibold text-white whitespace-nowrap flex flex-col items-center gap-1">
+          <span class="w-6 h-6 rounded-full bg-azure-500/20 text-azure-300 text-[10px] font-bold flex items-center justify-center">7</span>
+          Distributor
+        </button>
+        <svg class="mx-1 sm:mx-2 text-azure-400/60 shrink-0" width="24" height="16" viewBox="0 0 24 16" fill="none"><path d="M0 8H22M22 8L15 1M22 8L15 15" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </div>
+      <div class="flex items-center shrink-0">
+        <button data-sc-node="7" class="sc-node card card-hover px-4 py-3.5 text-xs sm:text-sm font-semibold text-white whitespace-nowrap flex flex-col items-center gap-1">
+          <span class="w-6 h-6 rounded-full bg-azure-500/20 text-azure-300 text-[10px] font-bold flex items-center justify-center">8</span>
+          Wholesaler
+        </button>
+        <svg class="mx-1 sm:mx-2 text-azure-400/60 shrink-0" width="24" height="16" viewBox="0 0 24 16" fill="none"><path d="M0 8H22M22 8L15 1M22 8L15 15" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </div>
+      <div class="flex items-center shrink-0">
+        <button data-sc-node="8" class="sc-node card card-hover px-4 py-3.5 text-xs sm:text-sm font-semibold text-white whitespace-nowrap flex flex-col items-center gap-1">
+          <span class="w-6 h-6 rounded-full bg-azure-500/20 text-azure-300 text-[10px] font-bold flex items-center justify-center">9</span>
+          Pharmacy / Hospital
+        </button>
+        <svg class="mx-1 sm:mx-2 text-azure-400/60 shrink-0" width="24" height="16" viewBox="0 0 24 16" fill="none"><path d="M0 8H22M22 8L15 1M22 8L15 15" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </div>
+      <div class="flex items-center shrink-0">
+        <button data-sc-node="9" class="sc-node card card-hover px-4 py-3.5 text-xs sm:text-sm font-semibold text-white whitespace-nowrap flex flex-col items-center gap-1">
+          <span class="w-6 h-6 rounded-full bg-azure-500/20 text-azure-300 text-[10px] font-bold flex items-center justify-center">10</span>
+          Patient / End Customer
+        </button>
+        
+      </div>
+    </div>
+  </div>
+    <div id="sc-detail" class="reveal max-w-2xl mx-auto mt-8 card !bg-white/[0.04] p-6 text-sm text-slate-300 leading-relaxed hidden"></div>
+  </section>
+
+  <section class="section light-section">
+    <div class="container-px max-w-6xl mx-auto">
+      
+  <div class="reveal max-w-2xl mx-auto text-center mb-14">
+    <p class="eyebrow mb-4">Standards</p>
+    <h2 class="h-section">Built on GS1 global standards.</h2>
+    
+  </div>
+      <div class="reveal grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
+        
+        <div class="card !bg-white !border-slate-200 p-6">
+          <h3 class="text-ink-900 font-semibold text-sm mb-2">GTIN</h3>
+          <p class="text-xs text-slate-600 leading-relaxed">Global Trade Item Number identifying the specific product.</p>
+        </div>
+        <div class="card !bg-white !border-slate-200 p-6">
+          <h3 class="text-ink-900 font-semibold text-sm mb-2">Serial Number</h3>
+          <p class="text-xs text-slate-600 leading-relaxed">Unique identifier applied to each individual package.</p>
+        </div>
+        <div class="card !bg-white !border-slate-200 p-6">
+          <h3 class="text-ink-900 font-semibold text-sm mb-2">Batch / Lot</h3>
+          <p class="text-xs text-slate-600 leading-relaxed">Manufacturing batch traceability for quality and recall management.</p>
+        </div>
+        <div class="card !bg-white !border-slate-200 p-6">
+          <h3 class="text-ink-900 font-semibold text-sm mb-2">Expiration Date</h3>
+          <p class="text-xs text-slate-600 leading-relaxed">Encoded expiry supporting dispensing and recall validation.</p>
+        </div>
+        <div class="card !bg-white !border-slate-200 p-6">
+          <h3 class="text-ink-900 font-semibold text-sm mb-2">2D DataMatrix</h3>
+          <p class="text-xs text-slate-600 leading-relaxed">Machine-readable barcode encoding GTIN, serial, lot, and expiry.</p>
+        </div>
+        <div class="card !bg-white !border-slate-200 p-6">
+          <h3 class="text-ink-900 font-semibold text-sm mb-2">Aggregation</h3>
+          <p class="text-xs text-slate-600 leading-relaxed">Linking unit-level serials to cases and pallets for supply-chain efficiency.</p>
+        </div>
+        <div class="card !bg-white !border-slate-200 p-6">
+          <h3 class="text-ink-900 font-semibold text-sm mb-2">EPCIS</h3>
+          <p class="text-xs text-slate-600 leading-relaxed">Standardized event data for track-and-trace visibility across partners.</p>
+        </div>
+        <div class="card !bg-white !border-slate-200 p-6">
+          <h3 class="text-ink-900 font-semibold text-sm mb-2">Regulatory Reporting</h3>
+          <p class="text-xs text-slate-600 leading-relaxed">Structured data supporting compliance and traceability mandates.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section bg-ink-950">
+    <div class="container-px max-w-5xl mx-auto">
+      
+  <div class="reveal max-w-2xl mx-auto text-center mb-14">
+    <p class="eyebrow mb-4">Reference Architecture</p>
+    <h2 class="h-section">SAP ATTP as the enterprise serialization repository.</h2>
+    
+  </div>
+      <div class="reveal">
+        <div class="flex flex-col items-center">
+    
+  <div class="reveal diagram-node w-full sm:w-64 justify-start ">
+    <span class="w-9 h-9 rounded-lg bg-azure-500/15 text-azure-300 flex items-center justify-center shrink-0"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="3" stroke="currentColor" stroke-width="1.6"/><path d="M12 3V5.5M12 18.5V21M21 12H18.5M5.5 12H3M18.4 5.6L16.6 7.4M7.4 16.6L5.6 18.4M18.4 18.4L16.6 16.6M7.4 7.4L5.6 5.6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></span>
+    <span class="flex flex-col">
+      <span class="text-white">Packaging Line</span>
+      
+    </span>
+  </div><div class="reveal diagram-arrow py-1">
+    <svg width="20" height="28" viewBox="0 0 20 28" fill="none"><path d="M10 0V22M10 22L3 15M10 22L17 15" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" class="animate-pulse-slow"/></svg>
+  </div>
+  <div class="reveal diagram-node w-full sm:w-64 justify-start ">
+    <span class="w-9 h-9 rounded-lg bg-azure-500/15 text-azure-300 flex items-center justify-center shrink-0"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M12 3L21 8L12 13L3 8L12 3Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M3 12L12 17L21 12" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M3 16L12 21L21 16" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg></span>
+    <span class="flex flex-col">
+      <span class="text-white">Level 2 Systems</span>
+      
+    </span>
+  </div><div class="reveal diagram-arrow py-1">
+    <svg width="20" height="28" viewBox="0 0 20 28" fill="none"><path d="M10 0V22M10 22L3 15M10 22L17 15" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" class="animate-pulse-slow"/></svg>
+  </div>
+  <div class="reveal diagram-node w-full sm:w-64 justify-start ">
+    <span class="w-9 h-9 rounded-lg bg-azure-500/15 text-azure-300 flex items-center justify-center shrink-0"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><rect x="3" y="4" width="18" height="16" rx="2" stroke="currentColor" stroke-width="1.6"/><path d="M7 8V16M10 8V16M13 8V12M13 14V16M16.5 8V16" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></span>
+    <span class="flex flex-col">
+      <span class="text-white">Site Serialization System</span>
+      
+    </span>
+  </div><div class="reveal diagram-arrow py-1">
+    <svg width="20" height="28" viewBox="0 0 20 28" fill="none"><path d="M10 0V22M10 22L3 15M10 22L17 15" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" class="animate-pulse-slow"/></svg>
+  </div>
+  <div class="reveal diagram-node w-full sm:w-64 justify-start ">
+    <span class="w-9 h-9 rounded-lg bg-azure-500/15 text-azure-300 flex items-center justify-center shrink-0"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M7 18H17.5C19.43 18 21 16.43 21 14.5C21 12.7 19.63 11.22 17.87 11.03C17.44 8.19 14.98 6 12 6C8.94 6 6.42 8.31 6.06 11.28C4.29 11.6 3 13.15 3 15C3 16.66 4.34 18 6 18H7Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg></span>
+    <span class="flex flex-col">
+      <span class="text-white">SAP ATTP</span>
+      
+    </span>
+  </div><div class="reveal diagram-arrow py-1">
+    <svg width="20" height="28" viewBox="0 0 20 28" fill="none"><path d="M10 0V22M10 22L3 15M10 22L17 15" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" class="animate-pulse-slow"/></svg>
+  </div>
+  <div class="reveal diagram-node w-full sm:w-64 justify-start ">
+    <span class="w-9 h-9 rounded-lg bg-azure-500/15 text-azure-300 flex items-center justify-center shrink-0"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="5" r="2" stroke="currentColor" stroke-width="1.6"/><circle cx="5" cy="16" r="2" stroke="currentColor" stroke-width="1.6"/><circle cx="19" cy="16" r="2" stroke="currentColor" stroke-width="1.6"/><path d="M12 7V12M12 12L6.5 15M12 12L17.5 15" stroke="currentColor" stroke-width="1.6"/></svg></span>
+    <span class="flex flex-col">
+      <span class="text-white">Enterprise Integration</span>
+      
+    </span>
+  </div><div class="reveal diagram-arrow py-1">
+    <svg width="20" height="28" viewBox="0 0 20 28" fill="none"><path d="M10 0V22M10 22L3 15M10 22L17 15" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" class="animate-pulse-slow"/></svg>
+  </div>
+  <div class="reveal diagram-node w-full sm:w-64 justify-start ">
+    <span class="w-9 h-9 rounded-lg bg-azure-500/15 text-azure-300 flex items-center justify-center shrink-0"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M4 21V4C4 3.44772 4.44772 3 5 3H13C13.5523 3 14 3.44772 14 4V21" stroke="currentColor" stroke-width="1.6"/><path d="M14 10H19C19.5523 10 20 10.4477 20 11V21" stroke="currentColor" stroke-width="1.6"/><path d="M7 7H11M7 11H11M7 15H11" stroke="currentColor" stroke-width="1.5"/></svg></span>
+    <span class="flex flex-col">
+      <span class="text-white">Trading Partners</span>
+      
+    </span>
+  </div><div class="reveal diagram-arrow py-1">
+    <svg width="20" height="28" viewBox="0 0 20 28" fill="none"><path d="M10 0V22M10 22L3 15M10 22L17 15" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" class="animate-pulse-slow"/></svg>
+  </div>
+  <div class="reveal diagram-node w-full sm:w-64 justify-start ">
+    <span class="w-9 h-9 rounded-lg bg-azure-500/15 text-azure-300 flex items-center justify-center shrink-0"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M12 3L19 6V11C19 15.5 16 19 12 21C8 19 5 15.5 5 11V6L12 3Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M9 12L11 14L15.5 9.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+    <span class="flex flex-col">
+      <span class="text-white">Regulatory Authorities</span>
+      
+    </span>
+  </div>
+  </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section light-section">
+    <div class="container-px max-w-5xl mx-auto">
+      
+  <div class="reveal max-w-2xl mx-auto text-center mb-14">
+    <p class="eyebrow mb-4">Track & Trace</p>
+    <h2 class="h-section">Click a package. See its journey.</h2>
+    <p class="body-lg mt-4">A representative package journey from manufacturing to dispensing, with timestamps and locations.</p>
+  </div>
+      
+  <div class="reveal card !bg-white !border-slate-200 p-6 sm:p-8 max-w-3xl mx-auto" id="track-trace">
+    <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 mb-6">
+      <div>
+        <p class="text-xs text-slate-500">Serial Number</p>
+        <p class="text-ink-900 font-mono font-semibold">SN98273184</p>
+      </div>
+      <button id="tt-play" class="btn-secondary !bg-ink-900 !text-white !border-ink-900 hover:!bg-ink-800 !py-2 !px-4 text-xs">Trace Package Journey</button>
+    </div>
+    <div class="space-y-0" id="tt-timeline">
+      
+      <div class="tt-event flex gap-4 opacity-30 transition-opacity duration-500" data-idx="0">
+        <div class="flex flex-col items-center">
+          <span class="tt-dot w-3 h-3 rounded-full bg-slate-300 shrink-0 mt-1.5 transition-colors duration-300"></span>
+          <span class="w-px flex-1 bg-slate-200 my-1"></span>
+        </div>
+        <div class="pb-6">
+          <p class="text-sm font-semibold text-ink-900">Manufactured</p>
+          <p class="text-xs text-slate-600 mt-0.5">Dallas Manufacturing Facility</p>
+          <p class="text-[11px] text-slate-500 mt-0.5">Aug 02, 2026 · 08:14 CT</p>
+        </div>
+      </div>
+      <div class="tt-event flex gap-4 opacity-30 transition-opacity duration-500" data-idx="1">
+        <div class="flex flex-col items-center">
+          <span class="tt-dot w-3 h-3 rounded-full bg-slate-300 shrink-0 mt-1.5 transition-colors duration-300"></span>
+          <span class="w-px flex-1 bg-slate-200 my-1"></span>
+        </div>
+        <div class="pb-6">
+          <p class="text-sm font-semibold text-ink-900">Serialized</p>
+          <p class="text-xs text-slate-600 mt-0.5">Packaging Line 3, Dallas Facility</p>
+          <p class="text-[11px] text-slate-500 mt-0.5">Aug 02, 2026 · 09:47 CT</p>
+        </div>
+      </div>
+      <div class="tt-event flex gap-4 opacity-30 transition-opacity duration-500" data-idx="2">
+        <div class="flex flex-col items-center">
+          <span class="tt-dot w-3 h-3 rounded-full bg-slate-300 shrink-0 mt-1.5 transition-colors duration-300"></span>
+          <span class="w-px flex-1 bg-slate-200 my-1"></span>
+        </div>
+        <div class="pb-6">
+          <p class="text-sm font-semibold text-ink-900">Case Aggregation</p>
+          <p class="text-xs text-slate-600 mt-0.5">Dallas Facility — Staging Dock 2</p>
+          <p class="text-[11px] text-slate-500 mt-0.5">Aug 02, 2026 · 14:20 CT</p>
+        </div>
+      </div>
+      <div class="tt-event flex gap-4 opacity-30 transition-opacity duration-500" data-idx="3">
+        <div class="flex flex-col items-center">
+          <span class="tt-dot w-3 h-3 rounded-full bg-slate-300 shrink-0 mt-1.5 transition-colors duration-300"></span>
+          <span class="w-px flex-1 bg-slate-200 my-1"></span>
+        </div>
+        <div class="pb-6">
+          <p class="text-sm font-semibold text-ink-900">Distribution Center</p>
+          <p class="text-xs text-slate-600 mt-0.5">Regional DC — North Texas</p>
+          <p class="text-[11px] text-slate-500 mt-0.5">Aug 03, 2026 · 06:05 CT</p>
+        </div>
+      </div>
+      <div class="tt-event flex gap-4 opacity-30 transition-opacity duration-500" data-idx="4">
+        <div class="flex flex-col items-center">
+          <span class="tt-dot w-3 h-3 rounded-full bg-slate-300 shrink-0 mt-1.5 transition-colors duration-300"></span>
+          <span class="w-px flex-1 bg-slate-200 my-1"></span>
+        </div>
+        <div class="pb-6">
+          <p class="text-sm font-semibold text-ink-900">Wholesaler</p>
+          <p class="text-xs text-slate-600 mt-0.5">Authorized Wholesale Partner</p>
+          <p class="text-[11px] text-slate-500 mt-0.5">Aug 05, 2026 · 11:32 CT</p>
+        </div>
+      </div>
+      <div class="tt-event flex gap-4 opacity-30 transition-opacity duration-500" data-idx="5">
+        <div class="flex flex-col items-center">
+          <span class="tt-dot w-3 h-3 rounded-full bg-slate-300 shrink-0 mt-1.5 transition-colors duration-300"></span>
+          <span class="w-px flex-1 bg-slate-200 my-1"></span>
+        </div>
+        <div class="pb-6">
+          <p class="text-sm font-semibold text-ink-900">Pharmacy</p>
+          <p class="text-xs text-slate-600 mt-0.5">Retail Pharmacy Location</p>
+          <p class="text-[11px] text-slate-500 mt-0.5">Aug 07, 2026 · 09:58 CT</p>
+        </div>
+      </div>
+      <div class="tt-event flex gap-4 opacity-30 transition-opacity duration-500" data-idx="6">
+        <div class="flex flex-col items-center">
+          <span class="tt-dot w-3 h-3 rounded-full bg-slate-300 shrink-0 mt-1.5 transition-colors duration-300"></span>
+          
+        </div>
+        <div class="pb-6">
+          <p class="text-sm font-semibold text-ink-900">Dispensed to Patient</p>
+          <p class="text-xs text-slate-600 mt-0.5">Point of Dispense</p>
+          <p class="text-[11px] text-slate-500 mt-0.5">Aug 07, 2026 · 15:41 CT</p>
+        </div>
+      </div>
+    </div>
+  </div>
+    </div>
+  </section>
+
+  <section class="section bg-ink-950">
+    <div class="container-px max-w-5xl mx-auto">
+      
+  <div class="reveal max-w-2xl mx-auto text-center mb-14">
+    <p class="eyebrow mb-4">Anti-Counterfeit</p>
+    <h2 class="h-section">Verification at the point of scan.</h2>
+    <p class="body-lg mt-4">Serialization enables real-time validation against GTIN, serial number, lot, and expiration date — flagging anomalies before they reach a patient.</p>
+  </div>
+      
+  <div class="reveal card p-6 sm:p-8 max-w-2xl mx-auto text-center" id="counterfeit-demo">
+    <p class="text-xs text-slate-500 mb-5">Counterfeit Detection — Reference Demo</p>
+    <div class="w-20 h-20 mx-auto rounded-2xl bg-white/5 border border-white/10 flex items-center justify-center mb-6"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><rect x="3" y="4" width="18" height="16" rx="2" stroke="currentColor" stroke-width="1.6"/><path d="M7 8V16M10 8V16M13 8V12M13 14V16M16.5 8V16" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></div>
+    <p class="text-sm text-slate-400 mb-6">Scan a 2D DataMatrix barcode to validate GTIN, serial number, lot, and expiration date against the serialization repository.</p>
+    <div class="flex gap-3 justify-center mb-6">
+      <button id="scan-authentic" class="btn-secondary !py-2.5 !px-5 text-sm">Scan Authentic Product</button>
+      <button id="scan-counterfeit" class="btn-secondary !py-2.5 !px-5 text-sm">Scan Suspicious Product</button>
+    </div>
+    <div id="scan-result" class="hidden rounded-xl p-5 text-left transition-all">
+      <div class="flex items-center gap-2 mb-3">
+        <span id="scan-icon" class="w-8 h-8 rounded-full flex items-center justify-center"></span>
+        <span id="scan-title" class="font-semibold"></span>
+      </div>
+      <div id="scan-details" class="text-sm space-y-1.5"></div>
+    </div>
+  </div>
+      <div class="reveal grid sm:grid-cols-2 gap-6 mt-14 max-w-4xl mx-auto">
+        <div class="card p-6 border-signal-green/30">
+          <p class="text-signal-green font-semibold text-sm mb-3">Authentic Product</p>
+          <ul class="text-xs text-slate-400 space-y-1.5">
+            <li>Valid serial number match</li>
+            <li>Expected supply-chain location</li>
+            <li>Active, non-decommissioned status</li>
+            <li>No duplicate scans detected</li>
+          </ul>
+        </div>
+        <div class="card p-6 border-signal-red/30">
+          <p class="text-signal-red font-semibold text-sm mb-3">Potential Counterfeit</p>
+          <ul class="text-xs text-slate-400 space-y-1.5">
+            <li>Unknown or unrecognized serial number</li>
+            <li>Duplicate scan of an existing serial</li>
+            <li>Product scanned in an unexpected region</li>
+            <li>Decommissioned or expired product</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <section class="relative section overflow-hidden">
+    <div class="absolute inset-0 bg-gradient-to-b from-azure-950 via-ink-900 to-ink-950"></div>
+    <div class="absolute inset-0 bg-grid opacity-20"></div>
+    <div class="relative container-px max-w-3xl mx-auto text-center">
+      <h2 class="reveal h-section">Protect your supply chain with enterprise serialization.</h2>
+      <p class="reveal body-lg mt-5 max-w-xl mx-auto">From SAP ATTP integration to regulatory reporting — let's design your traceability architecture.</p>
+      <div class="reveal mt-9 flex flex-col sm:flex-row items-center justify-center gap-4">
+        <a href="/contact.html" class="btn-primary">Start a Conversation</a>
+        
+      </div>
+    </div>
+  </section>
+  
+</main>
+
+  <footer class="border-t border-white/10 bg-ink-950">
+    <div class="container-px section !py-16">
+      <div class="grid grid-cols-2 md:grid-cols-5 gap-10">
+        <div class="col-span-2 md:col-span-1">
+          <a href="/index.html" class="flex items-center gap-2.5 mb-4"><svg width="30" height="30" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect width="32" height="32" rx="8" fill="url(#navmark)"/>
+    <path d="M8 20L16 8L24 20" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M11.5 20L16 13L20.5 20" stroke="white" stroke-opacity="0.55" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <defs><linearGradient id="navmark" x1="0" y1="0" x2="32" y2="32" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#42A3FF"/><stop offset="1" stop-color="#0A66D1"/>
+    </linearGradient></defs>
+  </svg><span class="font-display font-bold text-white text-lg">TRIADVI</span></a>
+          <p class="text-sm text-slate-500 leading-relaxed mb-4">Enterprise technology engineering for organizations where security, reliability, and innovation matter.</p>
+          <div class="flex gap-3">
+            <a href="https://www.linkedin.com" target="_blank" rel="noopener" aria-label="LinkedIn" class="w-9 h-9 rounded-full border border-white/10 flex items-center justify-center text-slate-400 hover:text-white hover:border-white/30 transition-colors"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM.24 8.25h4.48V23H.24V8.25zM8.5 8.25h4.3v2.02h.06c.6-1.13 2.06-2.32 4.24-2.32 4.53 0 5.37 2.98 5.37 6.86V23h-4.48v-6.6c0-1.57-.03-3.6-2.2-3.6-2.2 0-2.54 1.72-2.54 3.49V23H8.5V8.25z"/></svg></a>
+          </div>
+        </div>
+        
+    <div>
+      <h4 class="text-white font-semibold text-sm mb-4">Solutions</h4>
+      <ul class="space-y-2.5">
+        <li><a href="/microsoft-365.html" class="text-sm text-slate-400 hover:text-azure-300 transition-colors">Microsoft 365</a></li><li><a href="/power-platform.html" class="text-sm text-slate-400 hover:text-azure-300 transition-colors">Power Platform</a></li><li><a href="/azure-ai.html" class="text-sm text-slate-400 hover:text-azure-300 transition-colors">Azure & AI</a></li><li><a href="/devops.html" class="text-sm text-slate-400 hover:text-azure-300 transition-colors">DevOps</a></li><li><a href="/sap-attp.html" class="text-sm text-slate-400 hover:text-azure-300 transition-colors">SAP ATTP</a></li><li><a href="/sap-attp.html#serialization" class="text-sm text-slate-400 hover:text-azure-300 transition-colors">Serialization</a></li>
+      </ul>
+    </div>
+        
+    <div>
+      <h4 class="text-white font-semibold text-sm mb-4">Industries</h4>
+      <ul class="space-y-2.5">
+        <li><a href="/industries/government.html" class="text-sm text-slate-400 hover:text-azure-300 transition-colors">Government</a></li><li><a href="/industries/pharmaceutical.html" class="text-sm text-slate-400 hover:text-azure-300 transition-colors">Pharmaceutical</a></li><li><a href="/industries/financial-services.html" class="text-sm text-slate-400 hover:text-azure-300 transition-colors">Financial Services</a></li>
+      </ul>
+    </div>
+        
+    <div>
+      <h4 class="text-white font-semibold text-sm mb-4">Company</h4>
+      <ul class="space-y-2.5">
+        <li><a href="/about.html" class="text-sm text-slate-400 hover:text-azure-300 transition-colors">About</a></li><li><a href="/projects.html" class="text-sm text-slate-400 hover:text-azure-300 transition-colors">Projects</a></li><li><a href="/blog.html" class="text-sm text-slate-400 hover:text-azure-300 transition-colors">Blog</a></li><li><a href="/contact.html" class="text-sm text-slate-400 hover:text-azure-300 transition-colors">Contact</a></li>
+      </ul>
+    </div>
+        <div>
+          <h4 class="text-white font-semibold text-sm mb-4">Contact</h4>
+          <ul class="space-y-2.5 text-sm text-slate-400">
+            <li><a href="mailto:admin@triadvi.com" class="hover:text-azure-300 transition-colors">admin@triadvi.com</a></li>
+            <li>Aubrey, TX 76227</li>
+          </ul>
+        </div>
+      </div>
+      <div class="mt-14 pt-8 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-4">
+        <p class="text-xs text-slate-500">© 2026 TRIADVI LLC. All rights reserved.</p>
+        <div class="flex gap-6 text-xs text-slate-500">
+          <a href="/privacy.html" class="hover:text-slate-300">Privacy Policy</a>
+          <a href="/terms.html" class="hover:text-slate-300">Terms of Use</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+<script src="/assets/js/main.js" defer></script>
+<script src="/assets/js/serialization-demo.js" defer></script>
+</body>
+</html>

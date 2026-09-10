@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>DevOps Consulting | CI/CD, Terraform, Kubernetes, Azure DevOps | TRIADVI</title>
+<meta name="description" content="Enterprise DevOps consulting: CI/CD pipelines, infrastructure as code with Terraform, Docker and Kubernetes, automated testing, and environment promotion." />
+<link rel="canonical" href="https://www.triadvi.com/devops.html" />
+<meta name="robots" content="index, follow" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="TRIADVI LLC" />
+<meta property="og:title" content="DevOps Consulting | CI/CD, Terraform, Kubernetes, Azure DevOps | TRIADVI" />
+<meta property="og:description" content="Enterprise DevOps consulting: CI/CD pipelines, infrastructure as code with Terraform, Docker and Kubernetes, automated testing, and environment promotion." />
+<meta property="og:url" content="https://www.triadvi.com/devops.html" />
+<meta property="og:image" content="https://www.triadvi.com/assets/img/og-cover.svg" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="DevOps Consulting | CI/CD, Terraform, Kubernetes, Azure DevOps | TRIADVI" />
+<meta name="twitter:description" content="Enterprise DevOps consulting: CI/CD pipelines, infrastructure as code with Terraform, Docker and Kubernetes, automated testing, and environment promotion." />
+<link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/css/styles.css" />
+
+</head>
+<body class="bg-ink-950">
+
+  <header id="site-header" class="fixed top-0 inset-x-0 z-50 transition-all duration-300">
+    <div class="container-px">
+      <div id="nav-inner" class="mt-3 flex items-center justify-between rounded-2xl border border-white/0 px-4 py-3 transition-all duration-300">
+        <a href="/index.html" class="flex items-center gap-2.5 shrink-0">
+          <svg width="30" height="30" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect width="32" height="32" rx="8" fill="url(#navmark)"/>
+    <path d="M8 20L16 8L24 20" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M11.5 20L16 13L20.5 20" stroke="white" stroke-opacity="0.55" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <defs><linearGradient id="navmark" x1="0" y1="0" x2="32" y2="32" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#42A3FF"/><stop offset="1" stop-color="#0A66D1"/>
+    </linearGradient></defs>
+  </svg>
+          <span class="font-display font-bold text-white text-lg tracking-tight">TRIADVI</span>
+        </a>
+        <nav class="hidden xl:flex items-center gap-7">
+          <a href="/index.html" class="nav-link ">Home</a><a href="/services.html" class="nav-link ">Services</a><a href="/microsoft-365.html" class="nav-link ">Microsoft 365</a><a href="/power-platform.html" class="nav-link ">Power Platform</a><a href="/azure-ai.html" class="nav-link ">Azure & AI</a><a href="/devops.html" class="nav-link text-white">DevOps</a><a href="/sap-attp.html" class="nav-link ">SAP ATTP</a><a href="/industries.html" class="nav-link ">Industries</a><a href="/projects.html" class="nav-link ">Projects</a><a href="/blog.html" class="nav-link ">Blog</a><a href="/about.html" class="nav-link ">About</a><a href="/contact.html" class="nav-link ">Contact</a>
+        </nav>
+        <div class="hidden xl:flex items-center gap-3">
+          <a href="/contact.html" class="btn-primary !py-2.5 !px-5 text-sm">Start a Conversation</a>
+        </div>
+        <button id="mobile-menu-btn" aria-label="Open menu" class="xl:hidden text-white p-2">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M4 7H20M4 12H20M4 17H20" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+        </button>
+      </div>
+    </div>
+    <div id="mobile-menu" class="hidden xl:hidden container-px">
+      <div class="mt-2 glass rounded-2xl p-4 flex flex-col gap-1">
+        <a href="/index.html" class="nav-link py-2.5 px-2 rounded-lg hover:bg-white/5">Home</a><a href="/services.html" class="nav-link py-2.5 px-2 rounded-lg hover:bg-white/5">Services</a><a href="/microsoft-365.html" class="nav-link py-2.5 px-2 rounded-lg hover:bg-white/5">Microsoft 365</a><a href="/power-platform.html" class="nav-link py-2.5 px-2 rounded-lg hover:bg-white/5">Power Platform</a><a href="/azure-ai.html" class="nav-link py-2.5 px-2 rounded-lg hover:bg-white/5">Azure & AI</a><a href="/devops.html" class="nav-link py-2.5 px-2 rounded-lg hover:bg-white/5">DevOps</a><a href="/sap-attp.html" class="nav-link py-2.5 px-2 rounded-lg hover:bg-white/5">SAP ATTP</a><a href="/industries.html" class="nav-link py-2.5 px-2 rounded-lg hover:bg-white/5">Industries</a><a href="/projects.html" class="nav-link py-2.5 px-2 rounded-lg hover:bg-white/5">Projects</a><a href="/blog.html" class="nav-link py-2.5 px-2 rounded-lg hover:bg-white/5">Blog</a><a href="/about.html" class="nav-link py-2.5 px-2 rounded-lg hover:bg-white/5">About</a><a href="/contact.html" class="nav-link py-2.5 px-2 rounded-lg hover:bg-white/5">Contact</a>
+        <a href="/contact.html" class="btn-primary mt-2 w-full">Start a Conversation</a>
+      </div>
+    </div>
+  </header>
+<main>
+
+  
+  <section class="relative pt-40 pb-20 overflow-hidden bg-ink-950">
+    <div class="absolute inset-0 bg-hero-glow"></div>
+    <div class="absolute inset-0 bg-grid opacity-40 mask-fade-r"></div>
+    <div class="relative container-px max-w-5xl">
+      <div class="reveal text-xs text-slate-500 mb-6"><a href="/index.html" class="hover:text-slate-300">Home</a> / DevOps</div>
+      <p class="reveal eyebrow mb-5">DevOps & Cloud Engineering</p>
+      <h1 class="reveal h-display max-w-3xl">Continuous delivery, engineered for regulated environments.</h1>
+      <p class="reveal body-lg mt-6 max-w-2xl">CI/CD pipelines, infrastructure as code, and automated environment promotion — built for reliability, auditability, and speed.</p>
+    </div>
+  </section>
+
+  <section class="section bg-ink-950 pt-0">
+    
+  <div class="reveal max-w-2xl mx-auto text-center mb-14">
+    <p class="eyebrow mb-4">Lifecycle</p>
+    <h2 class="h-section">The DevOps lifecycle, end to end.</h2>
+    
+  </div>
+    <div class="reveal max-w-6xl mx-auto">
+      <div class="flex items-center justify-between gap-1 sm:gap-3 overflow-x-auto no-scrollbar px-2 pb-4">
+        
+        <div class="flex items-center shrink-0">
+          <div class="card px-4 py-3 text-xs sm:text-sm font-semibold text-white whitespace-nowrap">Plan</div>
+          <svg class="mx-1 sm:mx-2 text-azure-400/60 shrink-0" width="20" height="14" viewBox="0 0 24 14" fill="none"><path d="M0 7H20M20 7L14 1M20 7L14 13" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <div class="flex items-center shrink-0">
+          <div class="card px-4 py-3 text-xs sm:text-sm font-semibold text-white whitespace-nowrap">Code</div>
+          <svg class="mx-1 sm:mx-2 text-azure-400/60 shrink-0" width="20" height="14" viewBox="0 0 24 14" fill="none"><path d="M0 7H20M20 7L14 1M20 7L14 13" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <div class="flex items-center shrink-0">
+          <div class="card px-4 py-3 text-xs sm:text-sm font-semibold text-white whitespace-nowrap">Build</div>
+          <svg class="mx-1 sm:mx-2 text-azure-400/60 shrink-0" width="20" height="14" viewBox="0 0 24 14" fill="none"><path d="M0 7H20M20 7L14 1M20 7L14 13" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <div class="flex items-center shrink-0">
+          <div class="card px-4 py-3 text-xs sm:text-sm font-semibold text-white whitespace-nowrap">Test</div>
+          <svg class="mx-1 sm:mx-2 text-azure-400/60 shrink-0" width="20" height="14" viewBox="0 0 24 14" fill="none"><path d="M0 7H20M20 7L14 1M20 7L14 13" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <div class="flex items-center shrink-0">
+          <div class="card px-4 py-3 text-xs sm:text-sm font-semibold text-white whitespace-nowrap">Security Scan</div>
+          <svg class="mx-1 sm:mx-2 text-azure-400/60 shrink-0" width="20" height="14" viewBox="0 0 24 14" fill="none"><path d="M0 7H20M20 7L14 1M20 7L14 13" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <div class="flex items-center shrink-0">
+          <div class="card px-4 py-3 text-xs sm:text-sm font-semibold text-white whitespace-nowrap">Deploy</div>
+          <svg class="mx-1 sm:mx-2 text-azure-400/60 shrink-0" width="20" height="14" viewBox="0 0 24 14" fill="none"><path d="M0 7H20M20 7L14 1M20 7L14 13" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <div class="flex items-center shrink-0">
+          <div class="card px-4 py-3 text-xs sm:text-sm font-semibold text-white whitespace-nowrap">Monitor</div>
+          <svg class="mx-1 sm:mx-2 text-azure-400/60 shrink-0" width="20" height="14" viewBox="0 0 24 14" fill="none"><path d="M0 7H20M20 7L14 1M20 7L14 13" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <div class="flex items-center shrink-0">
+          <div class="card px-4 py-3 text-xs sm:text-sm font-semibold text-white whitespace-nowrap">Improve</div>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section bg-ink-900/40 border-y border-white/5">
+    <div class="container-px max-w-7xl mx-auto grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
+      
+      <div class="reveal card card-hover p-6">
+        <div class="w-10 h-10 rounded-lg bg-azure-500/15 text-azure-300 flex items-center justify-center mb-4"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M12 3L21 8L12 13L3 8L12 3Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M3 12L12 17L21 12" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M3 16L12 21L21 16" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg></div>
+        <h3 class="text-white font-semibold text-sm mb-2">Source Control</h3>
+        <p class="text-xs text-slate-400 leading-relaxed">Git and GitHub workflows with branch policies and code review gates.</p>
+      </div>
+      <div class="reveal card card-hover p-6">
+        <div class="w-10 h-10 rounded-lg bg-azure-500/15 text-azure-300 flex items-center justify-center mb-4"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><rect x="2.5" y="10" width="5" height="5" rx="1" stroke="currentColor" stroke-width="1.6"/><rect x="9.5" y="4" width="5" height="5" rx="1" stroke="currentColor" stroke-width="1.6"/><rect x="16.5" y="10" width="5" height="5" rx="1" stroke="currentColor" stroke-width="1.6"/><rect x="9.5" y="16" width="5" height="5" rx="1" stroke="currentColor" stroke-width="1.6"/><path d="M7.5 12.5H9.5M14.5 12.5H16.5M12 9V16" stroke="currentColor" stroke-width="1.4"/></svg></div>
+        <h3 class="text-white font-semibold text-sm mb-2">Azure DevOps & CI/CD</h3>
+        <p class="text-xs text-slate-400 leading-relaxed">Automated build, release, and deployment pipelines.</p>
+      </div>
+      <div class="reveal card card-hover p-6">
+        <div class="w-10 h-10 rounded-lg bg-azure-500/15 text-azure-300 flex items-center justify-center mb-4"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="3" stroke="currentColor" stroke-width="1.6"/><path d="M12 3V5.5M12 18.5V21M21 12H18.5M5.5 12H3M18.4 5.6L16.6 7.4M7.4 16.6L5.6 18.4M18.4 18.4L16.6 16.6M7.4 7.4L5.6 5.6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></div>
+        <h3 class="text-white font-semibold text-sm mb-2">Infrastructure as Code</h3>
+        <p class="text-xs text-slate-400 leading-relaxed">Terraform-managed, version-controlled cloud infrastructure.</p>
+      </div>
+      <div class="reveal card card-hover p-6">
+        <div class="w-10 h-10 rounded-lg bg-azure-500/15 text-azure-300 flex items-center justify-center mb-4"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="8" height="8" rx="1.5" stroke="currentColor" stroke-width="1.6"/><rect x="13" y="3" width="8" height="8" rx="1.5" stroke="currentColor" stroke-width="1.6"/><rect x="3" y="13" width="8" height="8" rx="1.5" stroke="currentColor" stroke-width="1.6"/><rect x="13" y="13" width="8" height="8" rx="1.5" stroke="currentColor" stroke-width="1.6"/></svg></div>
+        <h3 class="text-white font-semibold text-sm mb-2">Containers & Kubernetes</h3>
+        <p class="text-xs text-slate-400 leading-relaxed">Docker packaging and Kubernetes orchestration for scalable workloads.</p>
+      </div>
+      <div class="reveal card card-hover p-6">
+        <div class="w-10 h-10 rounded-lg bg-azure-500/15 text-azure-300 flex items-center justify-center mb-4"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M7 18H17.5C19.43 18 21 16.43 21 14.5C21 12.7 19.63 11.22 17.87 11.03C17.44 8.19 14.98 6 12 6C8.94 6 6.42 8.31 6.06 11.28C4.29 11.6 3 13.15 3 15C3 16.66 4.34 18 6 18H7Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg></div>
+        <h3 class="text-white font-semibold text-sm mb-2">Multi-Cloud Integration</h3>
+        <p class="text-xs text-slate-400 leading-relaxed">Azure and AWS integrations for hybrid and multi-cloud strategies.</p>
+      </div>
+      <div class="reveal card card-hover p-6">
+        <div class="w-10 h-10 rounded-lg bg-azure-500/15 text-azure-300 flex items-center justify-center mb-4"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M5 13L9.5 17.5L19 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        <h3 class="text-white font-semibold text-sm mb-2">Automated Testing</h3>
+        <p class="text-xs text-slate-400 leading-relaxed">Unit, integration, and regression testing embedded in the pipeline.</p>
+      </div>
+      <div class="reveal card card-hover p-6">
+        <div class="w-10 h-10 rounded-lg bg-azure-500/15 text-azure-300 flex items-center justify-center mb-4"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M4 20V10M11 20V4M18 20V13" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></div>
+        <h3 class="text-white font-semibold text-sm mb-2">Application Monitoring</h3>
+        <p class="text-xs text-slate-400 leading-relaxed">Observability and alerting across environments.</p>
+      </div>
+      <div class="reveal card card-hover p-6">
+        <div class="w-10 h-10 rounded-lg bg-azure-500/15 text-azure-300 flex items-center justify-center mb-4"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="5" r="2" stroke="currentColor" stroke-width="1.6"/><circle cx="5" cy="16" r="2" stroke="currentColor" stroke-width="1.6"/><circle cx="19" cy="16" r="2" stroke="currentColor" stroke-width="1.6"/><path d="M12 7V12M12 12L6.5 15M12 12L17.5 15" stroke="currentColor" stroke-width="1.6"/></svg></div>
+        <h3 class="text-white font-semibold text-sm mb-2">Environment Promotion</h3>
+        <p class="text-xs text-slate-400 leading-relaxed">Governed Dev → Test → UAT → Production promotion paths.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section light-section">
+    <div class="container-px max-w-6xl mx-auto">
+      
+  <div class="reveal max-w-2xl mx-auto text-center mb-14">
+    <p class="eyebrow mb-4">Animated Pipeline</p>
+    <h2 class="h-section">From commit to production, automatically.</h2>
+    
+  </div>
+      <div class="reveal overflow-x-auto no-scrollbar" id="devops-pipeline">
+        <div class="flex items-center gap-0 py-6 min-w-max px-2 sm:justify-center sm:min-w-0 sm:flex-wrap">
+          
+          <div class="flex items-center shrink-0">
+            <div class="pipeline-node card !bg-white !border-slate-200 px-4 py-3 text-xs sm:text-sm font-medium text-ink-900 whitespace-nowrap transition-all duration-500" style="transition-delay:0ms">Developer Commit</div>
+            <svg class="mx-1 sm:mx-2 text-azure-500/50 shrink-0" width="24" height="16" viewBox="0 0 24 16" fill="none"><path d="M0 8H22M22 8L15 1M22 8L15 15" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <div class="flex items-center shrink-0">
+            <div class="pipeline-node card !bg-white !border-slate-200 px-4 py-3 text-xs sm:text-sm font-medium text-ink-900 whitespace-nowrap transition-all duration-500" style="transition-delay:100ms">Git Repository</div>
+            <svg class="mx-1 sm:mx-2 text-azure-500/50 shrink-0" width="24" height="16" viewBox="0 0 24 16" fill="none"><path d="M0 8H22M22 8L15 1M22 8L15 15" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <div class="flex items-center shrink-0">
+            <div class="pipeline-node card !bg-white !border-slate-200 px-4 py-3 text-xs sm:text-sm font-medium text-ink-900 whitespace-nowrap transition-all duration-500" style="transition-delay:200ms">Build Pipeline</div>
+            <svg class="mx-1 sm:mx-2 text-azure-500/50 shrink-0" width="24" height="16" viewBox="0 0 24 16" fill="none"><path d="M0 8H22M22 8L15 1M22 8L15 15" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <div class="flex items-center shrink-0">
+            <div class="pipeline-node card !bg-white !border-slate-200 px-4 py-3 text-xs sm:text-sm font-medium text-ink-900 whitespace-nowrap transition-all duration-500" style="transition-delay:300ms">Automated Testing</div>
+            <svg class="mx-1 sm:mx-2 text-azure-500/50 shrink-0" width="24" height="16" viewBox="0 0 24 16" fill="none"><path d="M0 8H22M22 8L15 1M22 8L15 15" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <div class="flex items-center shrink-0">
+            <div class="pipeline-node card !bg-white !border-slate-200 px-4 py-3 text-xs sm:text-sm font-medium text-ink-900 whitespace-nowrap transition-all duration-500" style="transition-delay:400ms">Container Build</div>
+            <svg class="mx-1 sm:mx-2 text-azure-500/50 shrink-0" width="24" height="16" viewBox="0 0 24 16" fill="none"><path d="M0 8H22M22 8L15 1M22 8L15 15" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <div class="flex items-center shrink-0">
+            <div class="pipeline-node card !bg-white !border-slate-200 px-4 py-3 text-xs sm:text-sm font-medium text-ink-900 whitespace-nowrap transition-all duration-500" style="transition-delay:500ms">Security Scan</div>
+            <svg class="mx-1 sm:mx-2 text-azure-500/50 shrink-0" width="24" height="16" viewBox="0 0 24 16" fill="none"><path d="M0 8H22M22 8L15 1M22 8L15 15" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <div class="flex items-center shrink-0">
+            <div class="pipeline-node card !bg-white !border-slate-200 px-4 py-3 text-xs sm:text-sm font-medium text-ink-900 whitespace-nowrap transition-all duration-500" style="transition-delay:600ms">Infrastructure Deployment</div>
+            <svg class="mx-1 sm:mx-2 text-azure-500/50 shrink-0" width="24" height="16" viewBox="0 0 24 16" fill="none"><path d="M0 8H22M22 8L15 1M22 8L15 15" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <div class="flex items-center shrink-0">
+            <div class="pipeline-node card !bg-white !border-slate-200 px-4 py-3 text-xs sm:text-sm font-medium text-ink-900 whitespace-nowrap transition-all duration-500" style="transition-delay:700ms">Application Deployment</div>
+            <svg class="mx-1 sm:mx-2 text-azure-500/50 shrink-0" width="24" height="16" viewBox="0 0 24 16" fill="none"><path d="M0 8H22M22 8L15 1M22 8L15 15" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <div class="flex items-center shrink-0">
+            <div class="pipeline-node card !bg-white !border-slate-200 px-4 py-3 text-xs sm:text-sm font-medium text-ink-900 whitespace-nowrap transition-all duration-500" style="transition-delay:800ms">Production Monitoring</div>
+            
+          </div>
+        </div>
+      </div>
+      <div class="reveal flex flex-wrap gap-3 justify-center mt-10">
+        <span class="chip !border-slate-200 !bg-white !text-ink-900">Development</span><span class="text-slate-400">→</span><span class="chip !border-slate-200 !bg-white !text-ink-900">Test</span><span class="text-slate-400">→</span><span class="chip !border-slate-200 !bg-white !text-ink-900">UAT</span><span class="text-slate-400">→</span><span class="chip !border-slate-200 !bg-white !text-ink-900">Production</span>
+      </div>
+    </div>
+  </section>
+
+  
+  <section class="relative section overflow-hidden">
+    <div class="absolute inset-0 bg-gradient-to-b from-azure-950 via-ink-900 to-ink-950"></div>
+    <div class="absolute inset-0 bg-grid opacity-20"></div>
+    <div class="relative container-px max-w-3xl mx-auto text-center">
+      <h2 class="reveal h-section">Ship faster without sacrificing control.</h2>
+      <p class="reveal body-lg mt-5 max-w-xl mx-auto">Let's design a pipeline that fits your governance and compliance requirements.</p>
+      <div class="reveal mt-9 flex flex-col sm:flex-row items-center justify-center gap-4">
+        <a href="/contact.html" class="btn-primary">Start a Conversation</a>
+        
+      </div>
+    </div>
+  </section>
+  
+</main>
+
+  <footer class="border-t border-white/10 bg-ink-950">
+    <div class="container-px section !py-16">
+      <div class="grid grid-cols-2 md:grid-cols-5 gap-10">
+        <div class="col-span-2 md:col-span-1">
+          <a href="/index.html" class="flex items-center gap-2.5 mb-4"><svg width="30" height="30" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect width="32" height="32" rx="8" fill="url(#navmark)"/>
+    <path d="M8 20L16 8L24 20" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M11.5 20L16 13L20.5 20" stroke="white" stroke-opacity="0.55" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <defs><linearGradient id="navmark" x1="0" y1="0" x2="32" y2="32" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#42A3FF"/><stop offset="1" stop-color="#0A66D1"/>
+    </linearGradient></defs>
+  </svg><span class="font-display font-bold text-white text-lg">TRIADVI</span></a>
+          <p class="text-sm text-slate-500 leading-relaxed mb-4">Enterprise technology engineering for organizations where security, reliability, and innovation matter.</p>
+          <div class="flex gap-3">
+            <a href="https://www.linkedin.com" target="_blank" rel="noopener" aria-label="LinkedIn" class="w-9 h-9 rounded-full border border-white/10 flex items-center justify-center text-slate-400 hover:text-white hover:border-white/30 transition-colors"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM.24 8.25h4.48V23H.24V8.25zM8.5 8.25h4.3v2.02h.06c.6-1.13 2.06-2.32 4.24-2.32 4.53 0 5.37 2.98 5.37 6.86V23h-4.48v-6.6c0-1.57-.03-3.6-2.2-3.6-2.2 0-2.54 1.72-2.54 3.49V23H8.5V8.25z"/></svg></a>
+          </div>
+        </div>
+        
+    <div>
+      <h4 class="text-white font-semibold text-sm mb-4">Solutions</h4>
+      <ul class="space-y-2.5">
+        <li><a href="/microsoft-365.html" class="text-sm text-slate-400 hover:text-azure-300 transition-colors">Microsoft 365</a></li><li><a href="/power-platform.html" class="text-sm text-slate-400 hover:text-azure-300 transition-colors">Power Platform</a></li><li><a href="/azure-ai.html" class="text-sm text-slate-400 hover:text-azure-300 transition-colors">Azure & AI</a></li><li><a href="/devops.html" class="text-sm text-slate-400 hover:text-azure-300 transition-colors">DevOps</a></li><li><a href="/sap-attp.html" class="text-sm text-slate-400 hover:text-azure-300 transition-colors">SAP ATTP</a></li><li><a href="/sap-attp.html#serialization" class="text-sm text-slate-400 hover:text-azure-300 transition-colors">Serialization</a></li>
+      </ul>
+    </div>
+        
+    <div>
+      <h4 class="text-white font-semibold text-sm mb-4">Industries</h4>
+      <ul class="space-y-2.5">
+        <li><a href="/industries/government.html" class="text-sm text-slate-400 hover:text-azure-300 transition-colors">Government</a></li><li><a href="/industries/pharmaceutical.html" class="text-sm text-slate-400 hover:text-azure-300 transition-colors">Pharmaceutical</a></li><li><a href="/industries/financial-services.html" class="text-sm text-slate-400 hover:text-azure-300 transition-colors">Financial Services</a></li>
+      </ul>
+    </div>
+        
+    <div>
+      <h4 class="text-white font-semibold text-sm mb-4">Company</h4>
+      <ul class="space-y-2.5">
+        <li><a href="/about.html" class="text-sm text-slate-400 hover:text-azure-300 transition-colors">About</a></li><li><a href="/projects.html" class="text-sm text-slate-400 hover:text-azure-300 transition-colors">Projects</a></li><li><a href="/blog.html" class="text-sm text-slate-400 hover:text-azure-300 transition-colors">Blog</a></li><li><a href="/contact.html" class="text-sm text-slate-400 hover:text-azure-300 transition-colors">Contact</a></li>
+      </ul>
+    </div>
+        <div>
+          <h4 class="text-white font-semibold text-sm mb-4">Contact</h4>
+          <ul class="space-y-2.5 text-sm text-slate-400">
+            <li><a href="mailto:admin@triadvi.com" class="hover:text-azure-300 transition-colors">admin@triadvi.com</a></li>
+            <li>Aubrey, TX 76227</li>
+          </ul>
+        </div>
+      </div>
+      <div class="mt-14 pt-8 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-4">
+        <p class="text-xs text-slate-500">© 2026 TRIADVI LLC. All rights reserved.</p>
+        <div class="flex gap-6 text-xs text-slate-500">
+          <a href="/privacy.html" class="hover:text-slate-300">Privacy Policy</a>
+          <a href="/terms.html" class="hover:text-slate-300">Terms of Use</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+<script src="/assets/js/main.js" defer></script>
+<script src="/assets/js/devops-pipeline.js" defer></script>
+</body>
+</html>
